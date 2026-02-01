@@ -32,9 +32,12 @@ This README contains **ALL project files and code**.
 - Nmap installed
 - Python library:
 ```bash
-pip install cryptography
+` pip install cryptography `
+
 Check Nmap:
 
-nmap --version
+` nmap --version `
+
 ▶️ Run the Project
-python main.py
+
+` python main.py `
