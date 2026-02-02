@@ -79,6 +79,11 @@ Each module can be run independently:
 ## Verify file integrity
 
 `python file_integrity_checker.py`
+
+## Crack password using hashcat, john, hydra
+
+`python hash_cracker.py`
+
 ## All in one use this command
 
 `python main.py`
