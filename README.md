@@ -1,43 +1,77 @@
-# security-tool-by-Nilex
-# 🔐 NILEX Security Tools
+Security Tool by Nilex
 
-**NILEX Security Tools** is an educational cybersecurity toolkit written in Python.  
-It combines multiple beginner‑friendly security tools into one interactive CLI application.
+Security Tool by Nilex is a comprehensive cybersecurity toolkit that includes various modules to help with password security, cryptography, network scanning, and file integrity verification.
 
-> ⚠️ **Educational Use Only**  
-> This project is intended for learning and ethical testing only.  
-> Do NOT scan or attack systems without permission.
+Features
+1. Password Strength Checker
 
----
+Purpose: Evaluate the strength of passwords to ensure they are secure.
 
-## 📌 Included Tools
+Description: A lightweight and effective tool to check password robustness and prevent weak passwords from being used.
 
-- 🔑 Password Generator
-- 📊 Password Strength Checker
-- 🔐 Cryptography Tool (Fernet – AES)
-- 🌐 Nmap Port Scanner
-- 🧾 File Integrity Checker (SHA‑256)
+2. Password Generator
 
----
+Purpose: Generate secure passwords easily.
 
-## 📁 Project Files (All-in-One)
+Description: Creates simple yet strong passwords to enhance account security.
 
-This README contains **ALL project files and code**.
+3. Cryptography
 
----
+Purpose: Encrypt sensitive information securely.
 
-## ⚙️ Requirements
+Description: Uses symmetric encryption methods such as Fernet to protect your data.
 
-- Python **3.8+**
-- Nmap installed
-- Python library:
-```bash
-` pip install cryptography `
+4. Hash Cracker
 
-Check Nmap:
+Purpose: Test password hashes for vulnerabilities.
 
-` nmap --version `
+Description: Supports cracking passwords using popular tools like Hashcat and John the Ripper.
 
-▶️ Run the Project
+5. Port Scanner
 
-` python main.py `
+Purpose: Scan IP addresses and domains for open ports.
+
+Description: Identify potential entry points on networks and services.
+
+6. Subdomain Finder
+
+Purpose: Discover hidden or unknown subdomains.
+
+Description: Helps in reconnaissance by finding mystery domain names associated with a target.
+
+7. File Integrity Checker
+
+Purpose: Verify if files have been tampered with.
+
+Description: Ensures the authenticity and integrity of important files.
+
+Installation
+git clone https://github.com/yourusername/security-tool-nilex.git
+cd security-tool-nilex
+pip install -r requirements.txt
+
+Usage
+
+Each module can be run independently:
+
+# Check password strength
+python password_strength_checker.py
+
+# Generate a secure password
+python password_generator.py
+
+# Encrypt/Decrypt using Fernet
+python cryptography_tool.py
+
+# Scan ports
+python port_scanner.py
+
+# Find subdomains
+python subdomain_finder.py
+
+# Verify file integrity
+python file_integrity_checker.py
+
+License
+
+This project is licensed under the MIT License.
